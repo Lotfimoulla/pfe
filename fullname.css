@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+  height: 640px;
+    
+}
+
+.back{
+    z-index: 1;
+    width: 99%;
+    height: auto;
+    position: absolute;
+    left: 7px;
+    top: 278px;
+
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(8, 8, 8, 0.5);
+    padding: 12px;
+    text-align: center;
+    position: relative;
+}
+.grnd-titre {
+    margin: -10px;
+    color: #EF6C00;
+    font-family: cursive;
+    font-size: 40px;
+}
+.iconbac{
+    position: absolute;
+    top: 7px;
+    left: 28px;
+}
+.progress-bar {
+    width: 1366px;
+    height: 3px;
+    background-color: #ddd;
+    position: relative;
+    top: 14px;
+    left: -12px;
+}
+  
+  .progress {
+    width: 20%; /* 1/5  totale */
+    height: 100%;
+    background-color: orangered; /* Couleur orangered pour la première partie */
+    
+}
+
+.registration-box {
+    z-index: 2;
+    position: relative;
+    top: 64px;
+    left: 32%;
+    width: 33%;
+    height: 429px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 4%;
+
+}
+
+.t-titre {
+    
+   position: relative;
+   top: 0%;
+   left: 0%;
+   color: rgb(37, 36, 36);
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 25px;
+   
+}
+
+.info {
+    color: #323345;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+/* Style du label */
+label {
+    font-family: sans-serif;
+    display: block;
+    font-size: medium;
+    margin-bottom: 10px;
+    color: #323345;
+    position: relative;
+}
+
+/* Style du span dans le label (pour l'indicateur de champ requis) */
+label span {
+    color:red; /* Couleur grise plus claire pour l'indicateur de champ requis */
+}
+
+/* Style de l'input pour les champs Nom et Prénom */
+input[type="text"] {
+    height: 35px; /* Augmentation de la hauteur pour une meilleure visibilité */
+    width: calc(100% - 10px); /* Ajustement de la largeur pour tenir compte de la marge */
+    margin-bottom: 10px;
+    padding: 4px; /* Ajout de rembourrage pour améliorer l'apparence */
+    border: 1px solid #d1d1c4;
+    border-radius: 10px;
+    font-size: medium; /* Maintien de la taille de la police */
+    max-width: 100%;
+}
+input[type="text"]:hover{
+    border: 1px solid black;
+}
+/* Style de l'input en focus */
+input[type="text"]:focus {
+    border-color: #ff7300;
+    outline: none;
+    box-shadow: 0 0 0 2px #FF7300;
+}
+
+/* Style du bouton */
+button {
+    position: relative;
+    top: 4ch;
+    left: 0ch;
+    padding: 10px 20px;
+    background-color: #ff5019;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 549;
+    height: 46px;
+}
+
+/* Hover sur le bouton */
+button:hover {
+    background-color: #fd4209;
+}
+
+

@@ -1,0 +1,277 @@
+/*============================================================================================== */
+/* ============================================================================================== */
+                                          /* la barre  */
+/*============================================================================================== */
+/* ============================================================================================== */
+
+.back{
+    z-index: 1;
+    width: 99%;
+    height: auto;
+    
+
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(8, 8, 8, 0.5);
+    padding: 12px;
+    text-align: center;
+    position: relative;
+}
+.grnd-titre {
+    margin: -10px;
+    color: #EF6C00;
+    font-family: cursive;
+    font-size: 40px;
+}
+.iconbac{
+    position: absolute;
+    top: 7px;
+    left: 28px;
+}
+span{
+    color: blue;
+    margin-left: -17px;
+}
+.sp2{
+    color: rgb(255, 81, 0);
+    margin-left: 0px;
+}
+
+
+.progress {
+    height: 100%;
+    width: 0; /* Initialisation de la largeur à 0 (pas de remplissage) */
+    background-color: orangered;  /* Couleur de remplissage de la barre */
+    transition: width 0.3s ease; /* Animation de transition fluide */
+}
+.progress-bar {
+    width: 1349px;
+    height: 3px;
+    background-color: #ddd;
+    position: relative;
+    top: 14px;
+    left: -12px;
+  }
+ 
+  
+  
+/*============================================================================================== */
+/* ============================================================================================== */
+                                          /* style formulaire des photo */
+/*============================================================================================== */
+/* ============================================================================================== */
+
+/* Styles CSS */
+
+body {
+        /* Définir une image de fond avec une couleur de secours */
+        background-image: url(../img/back/publier-back.webp);
+        background-size: 100% ; /* Redimensionner l'image pour couvrir toute la largeur */
+        background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+        background-color: white; /* Couleur de fond de secours en cas d'absence de l'image */
+        font-family: 'Arial', sans-serif; /* Police de caractères par défaut */
+        margin: 0; /* Supprimer les marges extérieures par défaut */
+        padding: 0; /* Supprimer le rembourrage par défaut */
+}
+
+.container {
+    
+    position: relative;
+
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Modification de l'ombre */
+}
+
+
+
+input[type=text],
+input[type=number],
+select,
+textarea {
+    font-family: sans-serif;
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Styles CSS pour les éléments de formulaire */
+input[type=text]:hover,
+input[type=number]:hover,
+select:hover,
+textarea:hover {
+    border-color: #EF6C00; /* Couleur de la bordure au survol */
+}
+textarea {
+height: 300px;
+}
+.dispo2,
+.dispo {
+    display: flex;
+    justify-content: flex-start;
+    gap:30px
+}
+.dispo-colon {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+#prix,
+#nb-pieces,
+#espace {
+    width: 100%; /* Largeur des champs (occupe toute la largeur disponible) */
+   
+}
+
+/*============================================================================================== */
+/* ============================================================================================== */
+                                          /* les bouton */
+/*============================================================================================== */
+/* ============================================================================================== */
+
+input[type=submit],
+button {
+    
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #5cb85c;
+}
+
+input[type=submit]:hover,
+button:hover {
+    background-color: #1cd21c;
+}
+
+
+
+.return-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    background-color: rgb(8, 0, 255);
+   
+}
+
+.return-button:hover {
+    background-color: blue;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;      
+}
+/*============================================================================================== */
+/* ============================================================================================== */
+                                          /* Styles des étapes */
+/*============================================================================================== */
+/* ============================================================================================== */
+
+.step {
+    display: none; /* Caché par défaut, sauf l'étape active */
+    padding-bottom: 50px; /* Espace en bas pour les boutons */
+}
+
+.step.active {
+    display: block; /* Afficher l'étape active */
+}
+
+
+.titre-step {
+    font-family: sans-serif;
+    color: #EF6C00;
+    font-size: 24px; /* Modification de la taille du titre */
+    margin-bottom: 30px; /* Augmentation de la marge après le titre */
+}
+
+.step p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/*============================================================================================== */
+/* ============================================================================================== */
+                                          /* etape 3 des photo */
+/*============================================================================================== */
+/* ============================================================================================== */
+
+.thumbnail-container {
+    background: grey;
+    display: flex;
+    flex-direction: column; /* Affiche les lignes de thumbnails en colonnes */
+    justify-content: center; /* Centre les lignes verticalement */
+    align-items: center; /* Centre les items horizontalement */
+}
+
+.thumbnail-row {
+    display: flex;
+ 
+}
+
+.thumbnail {
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    top: 12px;
+    left: -11px;
+    margin: 10px;
+  
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px dashed rgb(132, 128, 128);
+}
+
+.thumbnail:hover {
+    border-color:black; /* Correction de la déclaration de la couleur de la bordure */
+}
+.position {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter:  contrast(20%) ;
+}
+
+.position:hover{
+    filter:  contrast(120%) ;
+}
+.thumbnail.loaded {
+    border: none; /* Bordure supprimée */
+}
+
+
+/* ===================================================================== */
+/* ======================avant la derniere partie=============================================== */
+.dispo2{
+position: relative;
+top: -21px;
+}
+
+

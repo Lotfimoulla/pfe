@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+  height: 640px;
+    
+}
+.back{
+    z-index: 1;
+    width: 99%;
+    height: auto;
+    position: absolute;
+    left: 7px;
+    top: 278px;
+
+}
+
+
+/* tout se qui a relation avec la barre */
+/* ----------------------------------------------------------------------------------------- */
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(8, 8, 8, 0.5);
+  padding: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.grnd-titre {
+  margin: -10px;
+  color: #EF6C00;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.iconbac {
+  position: absolute;
+  top: 7px;
+  left: 28px;
+}
+
+.progress-bar {
+  width: 1366px;
+  height: 3px;
+  background-color: #ddd;
+  position: relative;
+  top: 14px;
+  left: -12px;
+}
+
+.progress {
+  width: 40%; /* 2 page/5  */
+  height: 100%;
+  background-color: orangered; /* Couleur orangered pour la première partie */
+  
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* tout se qui a relation avec le box"formulaire "*/
+/* ----------------------------------------------------------------------------------------- */
+
+.registration-box {
+  z-index: 2;
+  margin-top: 12px;
+  position: relative;
+  top: 71px;
+  left: 32%;
+  width: 33%;
+  height: 333px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 4%;
+
+}
+
+.t-commancer{
+    
+   position: relative;
+   top: 0%;
+   left: 0%;
+   color: rgb(37, 36, 36);
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 25px;
+   margin: 17px 21px;
+}
+
+.info {
+  position: relative;
+    top: 28px;
+    left: 13px;
+    color: #747587;
+    font-family: sans-serif;
+    margin: 5px;
+    font-size: 13px;
+}
+#Me-renseigner{
+  color: #747587;
+}
+
+.registration-box form {
+    margin: 0px 21px;
+}
+
+label {
+    font-family:sans-serif;
+    display: block;
+    font-size: medium; /* Augmentation de la taille de la police */
+    margin-bottom: 10px;
+    color: #323345;
+    position: relative;
+}
+
+label span {
+    color: #f50505; /* Couleur grise plus claire pour l'indicateur de champ requis */
+}
+
+input[type="email"]
+{
+    height: 19px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+input[type="email"]:hover {   
+    border: 1px solid black;
+}
+input[type="email"]:focus {
+    border-color: #ff7300; /* Changer la couleur de la bordure en orange foncé */
+    outline: none; /* Supprimer le contour par défaut */
+    box-shadow: 0 0 0 2px #FF7300; /* Ajouter une ombre à la bordure pour un effet de mise en évidence */
+}
+
+button {
+    
+    position: relative;
+    top: 2ch;
+    left: 0ch;
+    padding: 10px 20px;
+    background-color: #ff5019;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    width: 424px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 549;
+    height: 46px;
+    
+}
+
+/* Style du conteneur */
+.container {
+  display: block;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Masquer la case à cocher par défaut */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Style de la case à cocher personnalisée */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 5px; /* Bordure arrondie */
+  border: 2px solid #c5c0c0; /* Bordure grise */
+}
+
+/* Lorsque la case à cocher est cochée, changer l'arrière-plan */
+.container input:checked ~ .checkmark {
+  background-color: #134772; /* Fond bleu */
+  border-color: #c5c0c0; 
+}
+
+/* Créer une coche (le symbole de la case à cocher) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Afficher la coche lorsque la case à cocher est cochée */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style de la coche (le symbole de la case à cocher) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.p-text{
+  position: relative;
+  left: 35px;
+  top: 6px;
+  font-family: sans-serif;
+  color: #323345;
+}
+button:hover {
+  background-color: #fd4209;
+}
+/* ----------------------------------------------------------------------------------------- */

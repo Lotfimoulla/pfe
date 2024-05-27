@@ -1,0 +1,86 @@
+
+/* tout se qui a relation avec le box"formulaire "*/
+/* ----------------------------------------------------------------------------------------- */
+.progress {
+  width: 60%; /* 3 page/5  */
+}
+
+.registration-box {
+    z-index: 2;
+    margin-top: 12px;
+    position: relative;
+    top: 71px;
+    left: 32%;
+    width: 33%;
+    height: 270px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 4%;
+}
+
+.t-Vérifions{
+    top: 0%;
+    left: 0%;
+    color: rgb(37, 36, 36);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 14px 8px;
+}
+
+.info {
+    position: relative;
+    top: -5px;
+    left: 9px;
+    color: #323345;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.revoiyer{
+    position: relative;
+    top: 39px;
+    left: 199px;
+    color: #323345;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.registration-box form {
+    margin: 0px 21px;
+}
+#t-recu{
+    position: absolute;
+    top: 236px;
+    left: 95px;
+    width: 120px;
+}
+.code-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-digit {
+    
+    width: 55px;
+    height: 61px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 67px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-space {
+    margin-right: 8px; /* Marge entre les deux groupes d'inputs */
+}
+.text-change{
+    position: relative;
+    top: -16px;
+    left: 11px;
+    color: #323345;
+    font-family: sans-serif;
+    font-weight: bold;
+}

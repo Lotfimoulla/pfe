@@ -1,0 +1,166 @@
+/* tout se qui a relation avec la barre */
+/* ----------------------------------------------------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef98 ;
+    height: 640px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.back{
+    z-index: 1;
+    width: 99%;
+    height: auto;
+    position: absolute;
+    left: 7px;
+    top: 278px;
+
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(8, 8, 8, 0.5);
+    padding: 12px;
+    text-align: center;
+    position: relative;
+}
+.grnd-titre {
+    margin: -10px;
+    color: #EF6C00;
+    font-family: cursive;
+    font-size: 40px;
+}
+.iconbac{
+    position: absolute;
+    top: 7px;
+    left: 28px;
+}
+.progress-bar {
+    width: 1366px;
+    height: 3px;
+    background-color: #ddd;
+    position: relative;
+    top: 14px;
+    left: -12px;
+}
+  
+  .progress {
+    width: 100%; /* 1/5  totale */
+    height: 100%;
+    background-color: orangered; /* Couleur orangered pour la première partie */
+    
+}
+    /* ----------------------------------------------------------------------------------------- */
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 0; /* Suppression du padding pour éviter l'espace supplémentaire */
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        gap: 20px; /* Ajustez cette valeur selon vos besoins */
+    }
+    
+    .contact-info {
+        background-image: url(../img/contacter/cn.jpg);
+        position: relative;
+        padding: 20px;
+        border-radius: 5px;
+        width: 400px;
+        color: white;
+        line-height: 1;
+    }
+    .contact-info .address,
+.contact-info .contact,
+.contact-info .support {
+    top: 130px;}
+    
+    .contact-info::before {
+        content: ""; /* Obligatoire pour que la pseudo-élément fonctionne */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Couleur semi-transparente */
+        border-radius: 5px;
+    }
+    
+    
+    .contact-info > * {
+        position: relative; }
+    
+    
+    
+    .message {
+        padding: 20px;
+        border-radius: 5px;
+        margin-right: 50px;
+    }
+    
+    .message h3{
+        color: orangered;
+        margin-left: 25px;
+    }
+    h2 {
+        color: #ffffff;
+    }
+    
+    .address, .contact, .support, .message {
+        margin-bottom: 20px;
+    }
+    
+    form label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    form input[type="submit"] {
+        background-color: orangered;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+       
+    }
+    .form {
+        max-width: 100%;
+    }
+    
+    .form input[type="submit"] {
+        float: right;
+    }
+    
+
+
+    .contact p{
+        color:orangered ;
+    }
+    .support a{
+        text-decoration: none;
+        color: orangered;
+    }
+   .address p{
+    color: rgba(255, 255, 255, 0.849);
+   }
+   .half-width {
+    display: inline-block;
+    width: calc(50% - 5px);
+}
